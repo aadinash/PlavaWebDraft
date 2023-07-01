@@ -1,3 +1,8 @@
+### This file runs the logic for Plava. Information is ingested from the website,
+# constructed into a readable CSP solver setup by the class imported from cspSetup,
+# then solved with BacktrackingSearch with improvements like ac3
+###
+
 import copy
 from cspSetup import EventBulletin, EventProfile, ItinCSPConstructor, HotelCSPConstructor
 from cspSolver import BacktrackingSearch
