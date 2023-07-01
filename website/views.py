@@ -1,3 +1,8 @@
+### This file describes the main rendering for the website. Essentially, we either render
+# the home template, which asks the user for information regarding their travel preferences,
+# or we render the solved itinerary upon POST/when the user submits the form given on the homepage
+###
+
 from flask import Blueprint, render_template, request
 import copy
 from logic.cspSetup import EventBulletin, ProvidedProfile, ItinCSPConstructor, HotelCSPConstructor
@@ -31,11 +36,11 @@ def home():
         alg = BacktrackingSearch()
         res = alg.solve(csp, False, False)
 
-        hAlg = BacktrackingSearch()
-        hres = hAlg.solve(hotel, False, False)
+        hotelAlg = BacktrackingSearch()
+        hres = hotelAlg.solve(hotel, False, False)
 
-        eAlg = BacktrackingSearch()
-        rres = eAlg.solve(eat, False, False)
+        eatAlg = BacktrackingSearch()
+        rres = eatAlg.solve(eat, False, False)
 
         if profile.days > 1:
             return render_template("result.html", result = res, bulletin = bulletin, days = profile.days, hotel = hres, restaurant = rres, hbulletin = hotels, rbulletin = restaurants)
