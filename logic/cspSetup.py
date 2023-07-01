@@ -28,6 +28,7 @@ import math
 
 # General code for representing a weighted CSP (Constraint Satisfaction Problem).
 # All variables are being referenced by their index instead of their original names
+### Code and comments for the CSP class have been taken w/ small modifications from CS221
 class CSP:
     def __init__(self):
         # Total number of variables in the CSP.
