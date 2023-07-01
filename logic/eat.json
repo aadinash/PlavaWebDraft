@@ -1,0 +1,29 @@
+{
+    "BrownDogPizza": {
+        "id": "BrownDogPizza",
+        "name": "Brown Dog Pizza",
+        "cost": 2,
+        "rating": 4.5,
+        "score": 7
+    },
+    "CosmopolitanTelluride": {
+        "id": "CosmopolitanTelluride",
+        "name": "Cosmopolitan Telluride",
+        "cost": 4,
+        "rating": 4.5,
+        "score": 9
+    },
+    "TacoDelGnar": {
+        "id": "TacoDelGnar",
+        "name": "Taco Del Gnar",
+        "cost": 2,
+        "score": 8
+    },
+    "221SouthOak": {
+        "id": "221SouthOak",
+        "name": "221 South Oak",
+        "cost": 4,
+        "score": 10
+    }
+
+}

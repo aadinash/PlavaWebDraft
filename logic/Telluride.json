@@ -1,0 +1,223 @@
+{
+    "Gondola": {
+        "id": "Gondola",
+        "name": "The Telluride Gondola",
+        "tags": [
+            "outdoors",
+            "scenic",
+            "relaxing"
+        ],
+        "cost": {"adult": 0},
+        "time": 1,
+        "age": "all",
+        "popularity": "popular",
+        "rating": 10,
+        "description": "A free 13-minute scenic gondola ride connecting Telluride to Mountain Village",
+        "coordinates": [
+            37.93611571234116, -107.8138084863625
+        ],
+        "img": "../static/the-stunning-telluride-p-1080.jpeg"
+    },
+    "BearFalls": {
+        "id": "BearFalls",
+        "name": "Bear Creek Falls Trail",
+        "tags": [
+            "outdoors",
+            "scenic",
+            "hiking",
+            "active"
+        ],
+        "cost": {"adult": 0},
+        "time": 4,
+        "age": "all",
+        "popularity": "popular",
+        "rating": 9,
+        "description": "A 5-mile moderate hike that leads to a waterfall and beautiful viewing area",
+        "coordinates": [
+            37.9344556828505, -107.81187646967767
+        ],
+        "img": "../static/149445545666dd8ce.jpg"
+    },
+    "MainStreet": {
+        "id": "MainStreet",
+        "name": "Main Street",
+        "tags": [
+            "historic",
+            "museums",
+            "shopping",
+            "culture"
+        ],
+        "cost": {"adult": 0},
+        "time": 4,
+        "age": "all",
+        "popularity": "popular",
+        "rating": 10,
+        "description": "The roadway through the center of the city is filled with entertainment and shopping venues, along with historic landmarks",
+        "coordinates": [
+            37.93812151920625, -107.81449087605068
+        ],
+        "img": "../static/63bda61061a7b7b6e924961b8e10c69a-p-500.jpeg"
+    },
+    "BlackBearPass": {
+        "id": "BlackBearPass",
+        "name": "Black Bear Pass Drive",
+        "link": "https://soajeep.com/jeep-tours/black-bear-pass/",
+        "tags": [
+            "outdoors",
+            "scenic",
+            "active"
+        ],
+        "cost": {"adult": 135, "child": 115},
+        "child": [6, 12],
+        "time": 8,
+        "age": "all",
+        "popularity": "popular",
+        "rating": 8,
+        "description": "An intense jeep ride over steep cliffs that gets you the best view of Bridal Veil Falls, the highest waterfall in Colorado",
+        "coordinates": [
+            37.90111639383745, -107.74306573217319
+        ],
+        "img": "../static/BLACK-BEAR-PASS-LAND-ROVER-USA.jpeg"
+    },
+    "BridalVeil": {
+        "id": "BridalVeil",
+        "name": "Bridal Veil Falls Hike",
+        "tags": [
+            "outdoors",
+            "hiking", 
+            "scenic",
+            "active"
+        ],
+        "cost": {"adult": 0},
+        "time": 4,
+        "age": "all",
+        "popularity": "popular",
+        "rating": 8,
+        "description": "A 1.8 mile hike to the top of the falls, which are the highest in the state of Colorado",
+        "coordinates": [
+            37.91973570847871, -107.77010494265495
+        ],
+        "img": "../static/Bridal_Veil_Falls_Telluride_CO3.jpg"
+    },
+    "BlueLakes": {
+        "id": "BlueLakes",
+        "name": "Blue Lakes Trail",
+        "tags": [
+            "outdoors",
+            "hiking", 
+            "scenic",
+            "active"
+        ],
+        "cost": {"adult": 0},
+        "time": 6,
+        "age": "all",
+        "popularity": "balanced",
+        "rating": 7,
+        "description": "A 9-mile round-trip hike that is considered moderately challenging, this trail rewards you with views of 3 different alpine lakes and waterfalls",
+        "coordinates": [
+            38.03587043497485, -107.80653009614758
+        ],
+        "img": "../static/DSCF8889_1300.jpg"
+    },
+    "RaftingSanMiguel": {
+        "id": "RaftingSanMiguel",
+        "name": "Telluride Half-Day Rafting on the San Miguel River",
+        "link": "https://www.tripadvisor.com/AttractionProductReview-g33602-d11476829-Telluride_Half_Day_Rafting_Tour_on_the_San_Miguel_River-Placerville_Colorado.html",
+        "tags": [
+            "outdoors",
+            "scenic",
+            "active"
+        ],
+        "cost": {"adult": 145.97, "child": 115.07},
+        "child": [10, 11],
+        "time": 8,
+        "age": "all",
+        "popularity": "balanced",
+        "rating": 7,
+        "description": "Spend the morning on the San Miguel River with class 2 and class 3 rapid, along with a river guide",
+        "coordinates": [
+            38.02731497624463, -108.09284792377413
+        ],
+        "img": "../static/maxresdefault.jpg"
+    },
+    "JudWiebe": {
+        "id": "JudWiebe",
+        "name": "Jud Wiebe Trail",
+        "tags": [
+            "outdoors",
+            "hiking", 
+            "scenic",
+            "active"
+        ],
+        "cost": {"adult": 0},
+        "time": 3,
+        "age": "all",
+        "popularity": "balanced",
+        "rating": 7,
+        "description": "A steep but shorter trail that gives you views of the whole Telluride Valley",
+        "coordinates": [
+            37.941237591861416, -107.81194393292004
+        ],
+        "img": "../static/1464386660ec116cac.jpg"
+    },
+    "HistoricalMuseum": {
+        "id": "HistoricalMuseum",
+        "name": "Telluride Historical Museum",
+        "link": "not online",
+        "tags": [
+            "culture",
+            "museum",
+            "historic"
+        ],
+        "cost": {"adult": 7, "child": 5, "senior": 5},
+        "child": [6, 17],
+        "time": 2,
+        "age": "all",
+        "popularity": "balanced",
+        "rating": 7,
+        "description": "A museum describing the rich history of Telluride, including its mining history (with a sluice for kids to try)",
+        "coordinates": [
+            37.93989992993273, -107.8105665096413
+        ],
+        "img": "../static/museum-copy.jpg"
+    },
+    "CornetFalls": {
+        "id": "CornetFalls",
+        "name": "CornetFalls",
+        "tags": [
+            "outdoors",
+            "hiking", 
+            "active"
+        ],
+        "cost": {"adult": 0},
+        "time": 2,
+        "age": "all",
+        "popularity": "balanced",
+        "rating": 6,
+        "description": "A tall waterfall you can get close to that takes some rock-scrambling to reach",
+        "coordinates": [
+            37.943630969914054, -107.81083300402469
+        ],
+        "img": "../static/cornet-creek-falls.jpg"
+    },
+    "AltaLake": {
+        "id": "AltaLake",
+        "name": "Alta Lake",
+        "tags": [
+            "outdoors", 
+            "scenic",
+            "relaxing"
+        ],
+        "cost": {"adult": 0},
+        "time": 3,
+        "age": "all",
+        "popularity": "popular",
+        "rating": 9,
+        "description": "Bring a picnic lunch to eat besides this stunning alpine lake just outside of Telluride with views of the San Joaquin Ridge",
+        "coordinates": [
+            37.88746266043355, -107.84678896175713
+        ],
+        "img": "../static/fe8cbcd4ac13996f0906ebe3470d2d19-p-800.jpeg"
+    }
+
+}

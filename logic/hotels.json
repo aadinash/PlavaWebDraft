@@ -1,0 +1,42 @@
+{
+    "Lumiere": {
+        "id": "Lumiere",
+        "name": "Lumiere with Inspirato",
+        "cost": 4,
+        "userRating": 5,
+        "score": 10,
+        "description": "A luxury hotel that is 50ft away from the slopes and has stunning views right from your room or suite"
+    },
+    "HotelTelluride": {
+        "id": "HotelTelluride",
+        "name": "The Hotel Telluride",
+        "cost": 2,
+        "userRating": 4.5,
+        "score": 8,
+        "description": "A boutique chalet that is located close to Telluride's shops and ski resort"
+    },
+    "CamelsGarden": {
+        "id": "CamelsGarden",
+        "name": "Camel's Garden Hotel & Condominiums",
+        "cost": 2,
+        "userRating": 4.5,
+        "score": 7,
+        "description": "Camel's Garden boasts a great location that is directly next to the free Gondola, the San Miguel River Trail, and is close to Telluride's downtown area"
+    },
+    "QualityInn": {
+        "id": "QualityInn",
+        "name": "Quality Inn Ouray",
+        "cost": 1,
+        "userRating": 4,
+        "score": 5,
+        "description": "Located in downtown Ouray, this hotel is near the Ouray hot springs and has great mountain views. 1 hour drive to Telluride on paved road; can otherwise go through Camp Bird Road"
+    },
+    "Madeline": {
+        "id": "Madeline",
+        "name": "Madeline Hotel & Residences",
+        "cost": 3,
+        "userRating": 4.5,
+        "score": 9,
+        "description": "Located in central Mountain Village, this luxury hotel has a pool and hot tub to relax in after a day on the slopes"
+    }
+}
